@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    max-height: 519px;
+    
+}
+
+header {
+    width: 100%;
+    height: 147px;
+    background-color: #2A4D82F7;
+}
+
+
+
+.hello {
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    margin-left: 680px;
+    letter-spacing: 1px;
+    color: #5071A3;
+    margin-top: 51px;
+
+}
+.registracion {
+    margin-left: -10px;
+}
+
+
+input {
+    width: 729px;
+    height: 75px;
+    border-radius:10px;
+    background-color:#E7E7E7;
+    color: #305285;
+    box-sizing: border-box;
+    border: 2px solid #305285;
+    margin-left: -50px;
+    
+}
+
+::placeholder {
+    color: #8394AB;
+    padding-left: 20px;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    gap: 33px;
+    margin-left: 456px;
+    margin-top: 68px;
+
+
+}
+
+
+p {
+    margin-left: 600px;
+    margin-top: 31px;
+    color: #305285;
+}
+
+.autorization {
+    margin-left: 400px;
+    padding-top: 17px;
+    margin-top: 32px;
+    width: 733px;
+    height: 75px;
+    background-color: #305285;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #E7E7E7;
+    font-size: 30px;
+
+
+}
+.or {
+    margin-top: 134px;
+    margin-left: 730px;
+    color: #305285;
+   font-size: 22px;
+}
+.google {
+    margin-left: 400px;
+    padding-top: 17px;
+    padding-left: 50px;
+    margin-top: 32px;
+    width: 733px;
+    height: 75px;
+    background-color: #E7E7E7;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#8394AB ;
+    font-size: 30px;
+    border: 2px solid #305285;
+
+
+}
+
+
+
+.contactus {
+    width: 100%;
+    height: 161px;
+    background-color:#3A5F96;
+    margin-top: 263px;
+}
+
+footer {
+    width: 100%;
+    background-color:#2A4D82F7;
+    height: 261px;
+
+}
+
+.logo {
+    height: 30px;
+    margin-top: 55px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 550px;
+}
